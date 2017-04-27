@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="kf_splash_image" type="id"/>
+    <string name="app_name">Framework</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_clipboard">复制到剪切板</string>
+    <string name="dialog_content_exit">亲，您确定离开吗？</string>
+    <string name="dialog_default_title">公告</string>
+    <string name="dialog_error_network">您的网络有问题</string>
+    <string name="dialog_error_title">错误</string>
+    <string name="dialog_force_update">请您更新</string>
+    <string name="dialog_force_update_download_success">下载成功</string>
+    <string name="dialog_loading">载入中…</string>
+    <string name="dialog_ok">确认</string>
+    <string name="dialog_retry">重试</string>
+    <string name="dialog_success_title">成功</string>
+    <string name="dialog_title_exit">退出</string>
+    <string name="dialog_update">请下载更新包安装后运行游戏\n谢谢!</string>
+    <string name="dialog_update_button">前往下载</string>
+    <string name="dialog_warning_title">警告</string>
+    <style name="kf_splash" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/plugin_splash</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="kf_splash_translucent" parent="android:Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
