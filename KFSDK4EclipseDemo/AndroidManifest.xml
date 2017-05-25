@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kfsdk.eclipse.demo"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -36,7 +36,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.kf.framework.KFFloatViewDetailActivity"
+            android:theme="@android:style/Theme.Translucent" />
 
+        <service
+            android:name="com.kf.framework.KFFloatViewService"
+            android:enabled="true" />
         <meta-data
             android:name="HJR_CHANNEL"
             android:value="\ 0103" />
