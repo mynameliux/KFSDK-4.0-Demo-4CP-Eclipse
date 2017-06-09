@@ -249,7 +249,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_main_pay:
                 //test pay print at tvMainResult.setText();
-//                paramsObj.put(Params.Pay.KEY_ORDER_NO, "");//订单号
+                paramsObj.put(Params.Pay.KEY_ORDER_NO, "");//订单号
                 paramsObj.put(Params.Pay.KEY_AMOUNT, "1");//购买商品金额
                 paramsObj.put(Params.Pay.KEY_SERVER_ID, testServerID);//服务器ID
                 paramsObj.put(Params.Pay.KEY_PRODUCT_ID, "testPayID");//购买商品的商品ID

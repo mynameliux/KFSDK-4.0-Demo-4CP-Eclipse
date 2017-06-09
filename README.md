@@ -72,11 +72,22 @@
 请在module `app`的`AndroidManifest.xml` 中按如下配置
 
 ```xml
- <application
+<application
         android:name="com.kf.framework.KFApplication"
         android:allowBackup="true">
 
 </application>
+```
+
+
+```xml
+<activity
+    android:name="com.kf.framework.KFFloatViewDetailActivity"
+    android:theme="@android:style/Theme.Translucent" />
+
+<service
+    android:name="com.kf.framework.KFFloatViewService"
+    android:enabled="true" />
 ```
 
 如果有自定义Application请在自定义的Application继承KFApplication
